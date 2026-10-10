@@ -11,7 +11,6 @@ const expo = new Expo();
 app.use(cors());
 app.use(express.json());
 
-const PORT = 3000;
 const pushTokens = new Set();
 const deviceDistricts = new Map();
 
