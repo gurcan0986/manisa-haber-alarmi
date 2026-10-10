@@ -1,0 +1,20 @@
+{
+  "name": "manisa-haber-alarmi-server",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "expo-server-sdk": "^7.2.0",
+    "express": "^5.2.1",
+    "rss-parser": "^3.13.0"
+  },
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
