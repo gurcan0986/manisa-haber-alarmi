@@ -297,13 +297,11 @@ app.get("/news", async (req, res) => {
   }
 });
 
+
 const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, "0.0.0.0", () => {
   console.log(`Manisa Haber Alarmi server ${PORT} portunda calisiyor`);
-}); {
-  console.log("Manisa Haber Alarmi server calisiyor:");
-  console.log("http://localhost:" + PORT);
 
   checkForNewNews();
   setInterval(checkForNewNews, 60 * 1000);
